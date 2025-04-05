@@ -3,7 +3,8 @@ import time
 from datetime import datetime
 
 # Replace this with your Render service URL when deploying
-BASE_URL = "http://localhost:8000"
+# BASE_URL = "http://localhost:8000"
+BASE_URL = "https://render-api-82tt.onrender.com"
 
 def test_health():
     """Test the health check endpoint"""
