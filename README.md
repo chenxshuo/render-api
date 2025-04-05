@@ -6,7 +6,9 @@ This is a FastAPI service template ready for deployment on Render.
 
 1. Install dependencies:
 ```bash
-pip install -r requirements.txt
+uv .venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 ```
 
 2. Run the server:
