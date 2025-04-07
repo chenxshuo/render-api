@@ -38,11 +38,11 @@ def run_tests():
     test_health()
     
     # Test sending multiple messages
-    test_send_text("Hello, this is my first message!")
-    time.sleep(1)  # Add small delay between messages
-    test_send_text("This is my second message.")
-    time.sleep(1)
-    test_send_text("And here's my third message!")
+    # test_send_text("Hello, this is my first message!")
+    # time.sleep(1)  # Add small delay between messages
+    # test_send_text("This is my second message.")
+    # time.sleep(1)
+    # test_send_text("And here's my third message!")
     
     # Test retrieving all messages
     test_get_texts()
